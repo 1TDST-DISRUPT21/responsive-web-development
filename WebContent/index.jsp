@@ -30,10 +30,12 @@
 	<span>e</span>
 </h1>
 <br> 
+<canvas id='c'></canvas>
+<script src='https://rawgit.com/akm2/simplex-noise.js/master/simplex-noise.js'></script>
 <div class="process-wrapper">
 <div id="progress-bar-container">
 	<ul>
-		<li class="step step01 active"><div class="step-inner">26 de out. de 1985</div></li>
+		<li class="step step01"><div class="step-inner">26 de out. de 1985</div></li>
 		<li class="step step02"><div class="step-inner">5 de nov. de 1955</div></li>
 		<li class="step step03"><div class="step-inner">12 de nov. de 1955</div></li>
 		<li class="step step04"><div class="step-inner">26 de out. de 1985</div></li>
@@ -46,32 +48,32 @@
 </div>
 
 <div id="progress-content-section">
-	<div class="section-content discovery active">
+	<div class="section-content jump1">
 		<h2>Einstein & Marty Mcfly</h2>
 		<img alt="" src="img/dog.jpg" width="100px" height="100px">
 		<img alt="" src="img/martin.jpg" width="100px" height="100px">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
 	</div>
 	
-	<div class="section-content strategy">
+	<div class="section-content jump2">
 		<h2>Marty Mcfly</h2>
 		<img alt="" src="img/martin.jpg" width="100px" height="100px">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
 	</div>
 	
-	<div class="section-content creative">
+	<div class="section-content jump3">
 		<h2>Marty Mcfly</h2>
 		<img alt="" src="img/martin.jpg" width="100px" height="100px">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
 	</div>
 	
-	<div class="section-content production">
+	<div class="section-content jump4">
 		<h2>Marty Mcfly</h2>
 		<img alt="" src="img/martin.jpg" width="100px" height="100px">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
 	</div>
 	
-	<div class="section-content analysis">
+	<div class="section-content jump5">
 		<h2>Dr. Emmet Brown, Marty Mcfly e Jennifer Parkers</h2>
 		<img alt="" src="img/dr.jpeg" width="100px" height="100px">
 		<img alt="" src="img/martin.jpg" width="100px" height="100px">
@@ -80,8 +82,11 @@
 	</div>
 	</div>
 </div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script src="js/script.js" type="text/javascript"></script>
+<script src="js/index.js" type="text/javascript"></script>
+
 </body>
 </html>

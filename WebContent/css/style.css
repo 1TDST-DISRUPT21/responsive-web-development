@@ -3,8 +3,16 @@
 body {
 	margin:0;
 	font-family: 'Roboto Condensed', sans-serif;
+	background-image: url("../img/backgroud.jpg") !important;
+	
 }
 
+canvas {
+    position: absolute;
+    top: 0;
+	left: 0;
+	opacity: 0.4;
+}
  
 h1 {
 	 	  
@@ -121,9 +129,12 @@ h1 span:nth-child(15){
 }
 
 #progress-bar-container li.active:before, #progress-bar-container li:hover:before {
-	border:solid 2px #fff;
+	/* box-shadow: 0 0 60px 30px #fff, 0 0 90px 40px #f0f, 0 0 140px 90px #0ff; */
+	box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
        	 
-	background: linear-gradient(to right, #006199 0%,#fff 100%); 
+  	background: rba(0 0 0); 
+	
+	transform: translateY(-20%);
 }
 
 #progress-bar-container li {
@@ -131,7 +142,7 @@ h1 span:nth-child(15){
 	float:left;
 	width:20%;
 	text-align:center;
-	color:#aaa;
+	color: aliceblue;
 	text-transform:uppercase;
 	font-size:11px;
 	cursor:pointer;
@@ -150,7 +161,7 @@ h1 span:nth-child(15){
 }
 
 #progress-bar-container li.active, #progress-bar-container li:hover {
-	color:#444;
+	color: lightblue;
 }
 
 #progress-bar-container li:after {
@@ -173,7 +184,7 @@ h1 span:nth-child(15){
 }
 
 #progress-bar-container li.active:after {
-	background:#207893;
+	background:#777;
 }
 
 #progress-bar-container #line {
@@ -193,8 +204,9 @@ h1 span:nth-child(15){
 	content:" ";
 	width:3%;
 	height:100%;
-	background: #207893;	 
-	background: linear-gradient(to right, #207893 0%,#2ea3b7 100%); 
+	background: #777;	 
+	background: #777;
+	box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; 
 	position:absolute;
 	z-index:2;
 	border-radius:50px;
@@ -205,6 +217,7 @@ h1 span:nth-child(15){
 	width:90%;
 	margin: auto;
 	background: #f3f3f3;
+	opacity: 0.9;
 	border-radius: 4px;
 }
 
