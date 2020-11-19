@@ -31,28 +31,25 @@ public class UsuarioDAO {
 
 		try {
 			
-			// CRIANDO A INSTRUÇÃO SQL
-			sql = "SELECT * FROM TBL_LOGIN WHERE NM_USER = ? AND PASS_USER = ?";
+			// CRIANDO A INSTRUï¿½ï¿½O SQL
+			sql = "SELECT * FROM TB_PERSONAGEM";
 			
-			// Criando a conexão
+			// Criando a conexï¿½o
 			ps = con.prepareStatement(sql);
 			
-			//Popular a instrução SQL.
-			ps.setString(1, up.getNomeUser());
-			ps.setString(2, up.getPassUser());
 
-			//Criando o ResultSet que vai armazenar o conteúdo da consulta.
+			//Criando o ResultSet que vai armazenar o conteï¿½do da consulta.
 			rs = ps.executeQuery();
 
 			// Criando uma estrutura para ler o ResultSet
 			while (rs.next()) {
-				// A cada iteração, será criado um novo Objeto e este será populado
+				// A cada iteraï¿½ï¿½o, serï¿½ criado um novo Objeto e este serï¿½ populado
 				// com os dados oriundos da base de dados.
 				u = new Usuario();
-				u.setId(Integer.parseInt(rs.getNString("id_user")));
+				
 				u.setNome(rs.getNString("nome"));
-				u.setNomeUser(rs.getNString("nm_user"));
-				u.setPassUser(rs.getNString("pass_user"));
+				u.setPapelFilme(rs.getNString("papel_filme"));
+				u.setSobre(rs.getNString("sobre"));
 				u.setUrlAvatar(rs.getNString("url_avatar"));
 				
 			}

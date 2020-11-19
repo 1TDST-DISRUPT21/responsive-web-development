@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/style.css" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
 <title>TimeLine</title>
+<link rel="icon" type="image/x-icon" href="img/logo.png" />
 </head>
 <body>
 <h1>
@@ -49,36 +50,41 @@
 
 <div id="progress-content-section">
 	<div class="section-content jump1">
-		<h2>Einstein & Marty Mcfly</h2>
-		<img alt="" src="img/dog.jpg" width="100px" height="100px">
-		<img alt="" src="img/martin.jpg" width="100px" height="100px">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+		<h2>${objUser.nome} & ${objUser.nome}</h2>
+		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
+		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
+		<p>Sobre o Ator: ${objUser.sobre}</p>
+		<p>${objUser.papelFilme}</p>	
 	</div>
 	
 	<div class="section-content jump2">
-		<h2>Marty Mcfly</h2>
-		<img alt="" src="img/martin.jpg" width="100px" height="100px">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+		<h2>${objUser.nome}</h2>
+		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
+		<p>Sobre o Ator: ${objUser.sobre}</p>
+		<p>${objUser.papelFilme}</p>
 	</div>
 	
 	<div class="section-content jump3">
-		<h2>Marty Mcfly</h2>
-		<img alt="" src="img/martin.jpg" width="100px" height="100px">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+		<h2>${objUser.nome}</h2>
+		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
+		<p>Sobre o Ator: ${objUser.sobre}</p>
+		<p>${objUser.papelFilme}</p>
 	</div>
 	
 	<div class="section-content jump4">
-		<h2>Marty Mcfly</h2>
-		<img alt="" src="img/martin.jpg" width="100px" height="100px">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
-	</div>
+		<h2>${objUser.nome}</h2>
+		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
+		<p>Sobre o Ator: ${objUser.sobre}</p>
+		<p>${objUser.papelFilme}</p>
+		</div>
 	
 	<div class="section-content jump5">
-		<h2>Dr. Emmet Brown, Marty Mcfly e Jennifer Parkers</h2>
-		<img alt="" src="img/dr.jpeg" width="100px" height="100px">
-		<img alt="" src="img/martin.jpg" width="100px" height="100px">
-		<img alt="" src="img/Jennifer.jpg" width="100px" height="100px">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+		<h2>${objUser.nome}, ${objUser.nome} e ${objUser.nome}</h2>
+		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
+		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
+		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
+		<p>Sobre os Atores: ${objUser.sobre}</p>
+		<p>${objUser.papelFilme}</p>
 	</div>
 	</div>
 </div>
