@@ -32,7 +32,7 @@ public class UsuarioDAO {
 		try {
 			
 			// CRIANDO A INSTRU��O SQL
-			sql = "SELECT * FROM TB_PERSONAGEM";
+			sql = "SELECT * FROM TB_PERSONAGEM P INNER JOIN TB_ATOR A ON P.ID_ATOR = ";
 			
 			// Criando a conex�o
 			ps = con.prepareStatement(sql);
