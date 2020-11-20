@@ -6,14 +6,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="css/login.css" type="text/css">
-<title>Tela de Login</title>
+<title>Back to the Future</title>
 </head>
 <body>
-	<div class="login">
-		<h1>Login</h1>
-		<form action="validacao" method="post">
-			<button type="submit">Login</button>
-		</form>
-	</div>
+	<form class="box" action="validacao" method="post">
+		<input type="text" name="user" id="txtuser" required="required" > 
+		<button type="submit">Continuar</button>
+	</form>
+
 </body>
 </html>

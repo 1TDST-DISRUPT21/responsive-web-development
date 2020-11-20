@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="./css/style.css" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
 <title>TimeLine</title>
-<link rel="icon" type="image/x-icon" href="img/logo.png" />
+<link rel="icon" type="image/x-icon" href="./img/logo.png" />
 </head>
 <body>
 <h1>

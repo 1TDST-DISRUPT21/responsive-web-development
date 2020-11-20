@@ -52,12 +52,20 @@ public class ServletController extends HttpServlet {
     	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		UsuarioBO userBO = new UsuarioBO();
     	Usuario user = new Usuario();
-		//Recuperando a Sessão do usuário
+    	
+    	user.setNome(request.getParameter("user"));
 			
 		System.out.println(user.getNome());
+		
+		user = userBO.login(user);
+		if(user != null) {	
+			request.setAttribute("objUser", user);
+			request.getRequestDispatcher("./WEB-INF/index.jsp").forward(request, response);
+		}else {
+			response.sendRedirect("login.jsp");	
 				
-		request.setAttribute("objUser", user);
-		request.getRequestDispatcher("./WEB-INF/index.jsp").forward(request, response);
+//		request.setAttribute("objUser", user);
+//		request.getRequestDispatcher("./WEB-INF/index.jsp").forward(request, response);
 		
 		HttpSession session = request.getSession();
 //		response.sendRedirect("./WEB-INF/index.jsp");
@@ -74,12 +82,7 @@ public class ServletController extends HttpServlet {
 ////		System.out.println(user.getNomeUser());
 ////		System.out.println(user.getPassUser());
 ////				
-//	    user = userBO.login(user);
-//		if(user != null) {	
-//		request.setAttribute("objUser", user);
-//		request.getRequestDispatcher("./WEB-INF/index.jsp").forward(request, response);
-//		}else {
-//		response.sendRedirect("login.jsp");	
+	    
 //				
 //			
 //		HttpSession session = request.getSession();		
@@ -99,5 +102,6 @@ public class ServletController extends HttpServlet {
 	
 	
 }
+    	}
 
 

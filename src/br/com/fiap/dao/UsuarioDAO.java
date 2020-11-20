@@ -32,10 +32,12 @@ public class UsuarioDAO {
 		try {
 			
 			// CRIANDO A INSTRU��O SQL
-			sql = "SELECT * FROM TB_PERSONAGEM WHERE ID_PERSONAGEM = 1";
+			sql = "SELECT * FROM TB_PERSONAGEM WHERE NOME = ?";
 			
 			// Criando a conex�o
 			ps = con.prepareStatement(sql);
+			
+			ps.setString(1, up.getNome());
 			
 
 			//Criando o ResultSet que vai armazenar o conte�do da consulta.
