@@ -32,10 +32,12 @@ public class UsuarioDAO {
 		try {
 			
 			// CRIANDO A INSTRU��O SQL
-			sql = "SELECT * FROM TB_PERSONAGEM P INNER JOIN TB_ATOR A ON P.ID_ATOR = ";
+			sql = "SELECT * FROM TB_PERSONAGEM WHERE NOME = ?";
 			
 			// Criando a conex�o
 			ps = con.prepareStatement(sql);
+			
+			ps.setString(1, up.getNome());
 			
 
 			//Criando o ResultSet que vai armazenar o conte�do da consulta.

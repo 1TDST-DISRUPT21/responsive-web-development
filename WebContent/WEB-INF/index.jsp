@@ -49,33 +49,35 @@
 </div>
 
 <div id="progress-content-section">
-	<div class="section-content jump1">
+ 	<div class="section-content jump1">
 		<h2>${objUser.nome} & ${objUser.nome}</h2>
 		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
 		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
 		<p>Sobre o Ator: ${objUser.sobre}</p>
-		<p>${objUser.papelFilme}</p>	
+		<p>Sobre o Ator: ${objUser.sobre}</p>
+		<p>Papel Filme: ${objUser.papelFilme}</p>	
+		<p>Papel Filme: ${objUser.papelFilme}</p>	
 	</div>
 	
 	<div class="section-content jump2">
 		<h2>${objUser.nome}</h2>
 		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
 		<p>Sobre o Ator: ${objUser.sobre}</p>
-		<p>${objUser.papelFilme}</p>
+		<p>Papel Filme: ${objUser.papelFilme}</p>
 	</div>
 	
 	<div class="section-content jump3">
 		<h2>${objUser.nome}</h2>
 		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
 		<p>Sobre o Ator: ${objUser.sobre}</p>
-		<p>${objUser.papelFilme}</p>
+		<p>Papel Filme: ${objUser.papelFilme}</p>
 	</div>
 	
 	<div class="section-content jump4">
 		<h2>${objUser.nome}</h2>
 		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
 		<p>Sobre o Ator: ${objUser.sobre}</p>
-		<p>${objUser.papelFilme}</p>
+		<p>Papel Filme: ${objUser.papelFilme}</p>
 		</div>
 	
 	<div class="section-content jump5">
@@ -84,15 +86,19 @@
 		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
 		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
 		<p>Sobre os Atores: ${objUser.sobre}</p>
-		<p>${objUser.papelFilme}</p>
-	</div>
+		<p>Sobre os Atores: ${objUser.sobre}</p>
+		<p>Sobre os Atores: ${objUser.sobre}</p>
+		<p>Papel Filme: ${objUser.papelFilme}</p>
+		<p>Papel Filme: ${objUser.papelFilme}</p>
+		<p>Papel Filme: ${objUser.papelFilme}</p>
+	</div> 
 	</div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="js/script.js" type="text/javascript"></script>
-<script src="js/index.js" type="text/javascript"></script>
+<script src="./js/script.js" type="text/javascript"></script>
+<script src="./js/index.js" type="text/javascript"></script>
 
 </body>
 </html>
