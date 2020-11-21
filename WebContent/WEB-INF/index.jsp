@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="./css/style.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
 <title>TimeLine</title>
-<link rel="icon" type="image/x-icon" href="./img/logo.png" />
+<link rel="icon" type="image/x-icon" href="img/logo.png" />
 </head>
 <body>
 <h1>
@@ -54,28 +54,30 @@
 		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
 		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
 		<p>Sobre o Ator: ${objUser.sobre}</p>
-		<p>${objUser.papelFilme}</p>	
+		<p>Sobre o Ator: ${objUser.sobre}</p>
+		<p>Papel Filme: ${objUser.papelFilme}</p>	
+		<p>Papel Filme: ${objUser.papelFilme}</p>	
 	</div>
 	
 	<div class="section-content jump2">
 		<h2>${objUser.nome}</h2>
 		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
 		<p>Sobre o Ator: ${objUser.sobre}</p>
-		<p>${objUser.papelFilme}</p>
+		<p>Papel Filme: ${objUser.papelFilme}</p>
 	</div>
 	
 	<div class="section-content jump3">
 		<h2>${objUser.nome}</h2>
 		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
 		<p>Sobre o Ator: ${objUser.sobre}</p>
-		<p>${objUser.papelFilme}</p>
+		<p>Papel Filme: ${objUser.papelFilme}</p>
 	</div>
 	
 	<div class="section-content jump4">
 		<h2>${objUser.nome}</h2>
 		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
 		<p>Sobre o Ator: ${objUser.sobre}</p>
-		<p>${objUser.papelFilme}</p>
+		<p>Papel Filme: ${objUser.papelFilme}</p>
 		</div>
 	
 	<div class="section-content jump5">
@@ -84,7 +86,11 @@
 		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
 		<img alt="" src="${objUser.urlAvatar}" width="100px" height="100px">
 		<p>Sobre os Atores: ${objUser.sobre}</p>
-		<p>${objUser.papelFilme}</p>
+		<p>Sobre os Atores: ${objUser.sobre}</p>
+		<p>Sobre os Atores: ${objUser.sobre}</p>
+		<p>Papel Filme: ${objUser.papelFilme}</p>
+		<p>Papel Filme: ${objUser.papelFilme}</p>
+		<p>Papel Filme: ${objUser.papelFilme}</p>
 	</div> 
 	</div>
 </div>

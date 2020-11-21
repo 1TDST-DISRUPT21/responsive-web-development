@@ -60,7 +60,12 @@ body {
 	border-radius: 30px;
 	transition: 0.14s;
 	cursor: pointer;
-	font-size: 15px
+	font-size: 15px;	
+}
+
+.box a {
+	color: inherit;
+	text-decoration: none;
 }
 
 .box button[type="submit"]:hover {
